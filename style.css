@@ -35,11 +35,10 @@ ul#menu li a{
     position: fixed;
     right: 20px;
     top: 10px;
-    background-color: #ccc;
     width: 40px;
     height: 40px;
     text-align: center;
-    font-size: 29px;
+    font-size: 25px;
     border-radius: 50%;
     cursor: pointer;
 }
