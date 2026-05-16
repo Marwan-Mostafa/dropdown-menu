@@ -5,9 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Quicksand", sans-serif;;
 }
+
 ul#menu{  
     position: fixed;
     padding: 0;
@@ -22,12 +24,15 @@ ul#menu{
 ul#menu.active{
     transform: none;
 }
+
 ul#menu li a{
     display: block;
     padding: 15px 20px;
     color: #000;
     text-decoration: none;
     border-bottom: 1px solid #c5c3c3;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 #btn{
