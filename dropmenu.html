@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dropdown Menu</title>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li class="dropmenu">
+            <a href="javascript:void(0)" class="link-drop">
+                projects
+                <i class="fa-solid fa-angle-down"></i>
+                <!-- <i class="fa-solid fa-angle-up"></i> -->
+            </a>
+
+            <ul class="sub-menu">
+                <li><a href="">project 1</a></li>
+                <li><a href="">project 2</a></li>
+                <li><a href="">project 3</a></li>
+                <li><a href="">project 4</a></li>
+            </ul>
+        </li>
+        <li><a href="">certificates</a></li>
+        <li><a href="">contact us</a></li>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

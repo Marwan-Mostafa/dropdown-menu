@@ -7,8 +7,14 @@
 }
 
 body {
-    font-family: "Quicksand", sans-serif;;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
+
+/* Navigation*/
 
 ul#menu{  
     position: fixed;
@@ -46,4 +52,40 @@ ul#menu li a{
     font-size: 25px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+
+/*Dropmenu*/
+
+.menu{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    background-color: aliceblue;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropmenu{
+    position: relative;
+}
+
+.sub-menu{
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+.active{
+    background-color: rgba(80, 66, 232, 0.5);
+    color: #f51212 !important;
 }
